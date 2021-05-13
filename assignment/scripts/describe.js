@@ -148,6 +148,7 @@ let mix = true;
 
 if (mix === true) {
   colorOne = 'purple';
+
   // FIX - both colorOne and colorTwo need to set to purple since mix === true.
   // if (mix === true) {
   // colorOne = 'purple';
@@ -162,6 +163,9 @@ if (mix === true) {
 /*
 let temp = 40;
 const time = 4;
+
+//FIX - || is or, but instructions have 'and' which means both variables need to match not just one.
+//Should be 'if (temp > 39 && time >= 4)'
 
 if (temp > 39 || time >= 4) {
   console.log('throw away the food!');
