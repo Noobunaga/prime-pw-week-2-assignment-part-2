@@ -164,7 +164,7 @@ if (mix === true) {
 let temp = 40;
 const time = 4;
 
-//FIX - || is or, but instructions have 'and' which means both variables need to match not just one.
+//FIX - || is 'or', but instructions have 'and' which means both variables need to match not just one.
 //Should be 'if (temp > 39 && time >= 4)'
 
 if (temp > 39 || time >= 4) {
@@ -179,6 +179,15 @@ if (temp > 39 || time >= 4) {
 /*
 let age = 21;
 const minAge = 21;
+
+//FIX - age and minAge are in incorrect spots and <= is wrong.
+//How code is written now it is 'if minAge is less than or equal to age',
+//and does not match description. Also console.logs are incorrect
+//Should be 'if(age >= minAge) {
+//  console.log('enter');
+//} else {
+//  console.log('no entry');
+// }'
 
 if(minAge <= age) {
   console.log('no entry');
