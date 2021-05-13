@@ -47,9 +47,11 @@ if (name === 'Mary') {
 // 2. WRITE YOUR DESCRIPTION HERE
 // We made a variable called secret with no set value yet.
 // We made a variable called code and set value to 123.
-// If code is exact match to 123, secret is equal to 'super' and code equal to 246.
-// If code is greater than 250, super equals 'duper'.
-// We console log 'super'.
+// We check if code is exact match to 123.
+// If exact secret is equal to 'super' and code equal to 246.
+// We check if code is greater than 250.
+// If greater, super equals 'duper'. Code is not greater, so
+// We console.log 'super'.
 
 //CODE
 /*
@@ -71,10 +73,19 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-//
-//
-//
-//
+// We made boolean called isStudent and set equal to true.
+// We made variable called age and set value to 34.
+// We made variable called zip and set value to 55407.
+// If isStudent is true and zip is greater than 80000.
+// We console.log 'You're a student on the West Coast!'.
+// So both conditions are not true so we go to next else if.
+// If isStudent exact false or age is less than 30.
+// We console.log 'What are you hobbies?'.
+// So neither conditions are true, so we go to next else if.
+// If isStudent exactly true.
+// We console.log 'Welcome to Prime!'.
+// So condition is true, so we console.log 'Welcome to Prime!'.
+// If all conditions are not true console.log will just output 'How about the weather'.
 
 //CODE
 /*
