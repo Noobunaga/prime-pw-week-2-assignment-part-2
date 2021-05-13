@@ -45,10 +45,11 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-//
-//
-//
-//
+// We made a variable called secret with no set value yet.
+// We made a variable called code and set value to 123.
+// If code is exact match to 123, secret is equal to 'super' and code equal to 246.
+// If code is greater than 250, super equals 'duper'.
+// We console log 'super'.
 
 //CODE
 /*
